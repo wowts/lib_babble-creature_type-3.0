@@ -1,5 +1,7 @@
+import { LuaObj } from "@wowts/lua";
+
 export class LibBabbleCreatureType {
-    public GetLookupTable() {
+    public GetLookupTable(): LuaObj<string> {
         return {};
     }
 }
